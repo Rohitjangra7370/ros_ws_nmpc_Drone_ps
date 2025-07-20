@@ -1,0 +1,16 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/PKG-INFO
+../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/SOURCES.txt
+../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/dependency_links.txt
+../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/entry_points.txt
+../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/requires.txt
+../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/top_level.txt
+../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/zip-safe
+px4_nmpc_casadi/__init__.py
+resource/px4_nmpc_casadi
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

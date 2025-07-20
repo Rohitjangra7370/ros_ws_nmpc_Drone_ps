@@ -1,0 +1,147 @@
+[0.005s] Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.101s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.194s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.289s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.289s] -- Detecting CXX compile features
+[0.290s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.410s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.463s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.483s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.485s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.489s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.514s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.523s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.524s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.543s] -- Found px4_msgs: 2.0.1 (/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/cmake)
+[0.550s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.581s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.583s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.677s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.707s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.738s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.746s] -- Looking for pthread.h
+[0.831s] -- Looking for pthread.h - found
+[0.831s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.921s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.922s] -- Found Threads: TRUE  
+[0.971s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.986s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.991s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.058s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.061s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.061s] -- Configured cppcheck include dirs: /home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_ros_com/include/px4_ros_com>
+[1.061s] -- Configured cppcheck exclude dirs and/or files: 
+[1.063s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.063s] -- Configured cpplint exclude dirs and/or files: 
+[1.064s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.066s] -- Added test 'lint_cmake' to check CMake code style
+[1.067s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.071s] -- Added test 'uncrustify' to check C / C++ code style
+[1.071s] -- Configured uncrustify additional arguments: 
+[1.072s] -- Added test 'xmllint' to check XML markup files
+[1.073s] -- Configuring done
+[1.085s] -- Generating done
+[1.090s] -- Build files have been written to: /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com
+[1.097s] Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com
+[1.098s] Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com -- -j20 -l20
+[1.140s] [  8%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[1.140s] [ 16%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[1.140s] [ 25%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[1.142s] [ 33%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[1.146s] [ 41%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[1.146s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[1.149s] [ 50%] Built target ament_cmake_python_copy_px4_ros_com
+[1.469s] running egg_info
+[1.469s] creating px4_ros_com.egg-info
+[1.470s] writing px4_ros_com.egg-info/PKG-INFO
+[1.470s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[1.470s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[1.470s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.472s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.472s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.517s] [ 50%] Built target ament_cmake_python_build_px4_ros_com_egg
+[4.247s] [ 58%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[4.398s] [ 58%] Built target debug_vect_advertiser
+[4.609s] [ 66%] [32m[1mLinking CXX executable offboard_control[0m
+[4.754s] [ 66%] Built target offboard_control
+[5.091s] [ 75%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[5.244s] [ 75%] Built target offboard_control_srv
+[5.829s] [ 83%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[5.999s] [ 83%] Built target frame_transforms
+[6.356s] [ 91%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[6.504s] [100%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[6.595s] [100%] Built target vehicle_gps_position_listener
+[6.718s] [100%] Built target sensor_combined_listener
+[6.726s] Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com -- -j20 -l20
+[6.727s] Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com
+[6.732s] -- Install configuration: ""
+[6.732s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[6.734s] -- Set runtime path of "/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[6.734s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[6.736s] -- Set runtime path of "/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[6.736s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[6.737s] -- Set runtime path of "/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[6.737s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[6.738s] -- Set runtime path of "/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[6.738s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[6.739s] -- Set runtime path of "/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[6.739s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[6.739s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[6.739s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/include/px4_ros_com
+[6.740s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[6.740s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/libframe_transforms.so
+[6.742s] -- Set runtime path of "/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[6.742s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com//launch
+[6.742s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[6.742s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[6.742s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com//test
+[6.742s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[6.742s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[6.742s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[6.742s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[6.742s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[6.742s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[6.742s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[6.743s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[6.743s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[6.743s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[6.743s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[6.743s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com
+[6.743s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[6.743s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[6.763s] Listing '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[6.763s] Compiling '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...
+[6.763s] Compiling '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...
+[6.766s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[6.766s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[6.766s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[6.766s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[6.766s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/package.dsv
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[6.767s] -- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/package.xml
+[6.768s] Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com

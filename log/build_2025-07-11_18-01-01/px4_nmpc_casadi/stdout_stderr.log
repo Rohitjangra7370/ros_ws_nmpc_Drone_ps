@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info
+writing ../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/PKG-INFO
+writing dependency_links to ../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/dependency_links.txt
+writing entry points to ../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/entry_points.txt
+writing requirements to ../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/requires.txt
+writing top-level names to ../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/top_level.txt
+writing manifest file '../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/SOURCES.txt'
+reading manifest file '../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/build
+creating /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/build/lib
+creating /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/build/lib/px4_nmpc_casadi
+copying px4_nmpc_casadi/__init__.py -> /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/build/lib/px4_nmpc_casadi
+running install
+running install_lib
+creating /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/lib/python3.10/site-packages/px4_nmpc_casadi
+copying /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/build/lib/px4_nmpc_casadi/__init__.py -> /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/lib/python3.10/site-packages/px4_nmpc_casadi
+byte-compiling /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/lib/python3.10/site-packages/px4_nmpc_casadi/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/ament_index
+creating /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/ament_index/resource_index
+creating /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/ament_index/resource_index/packages
+copying resource/px4_nmpc_casadi -> /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/ament_index/resource_index/packages
+copying package.xml -> /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/px4_nmpc_casadi
+running install_egg_info
+Copying ../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info to /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/lib/python3.10/site-packages/px4_nmpc_casadi-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/install.log'

@@ -1,0 +1,4 @@
+Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs -- -j20 -l20
+Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs -- -j20 -l20
+Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs
+Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs

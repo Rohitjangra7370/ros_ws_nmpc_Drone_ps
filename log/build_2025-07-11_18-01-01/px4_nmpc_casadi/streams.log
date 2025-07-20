@@ -1,0 +1,34 @@
+[0.557s] Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_nmpc_casadi': PYTHONPATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_nmpc_casadi build --build-base /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/build install --record /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/install.log --single-version-externally-managed install_data
+[0.727s] running egg_info
+[0.728s] creating ../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info
+[0.728s] writing ../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/PKG-INFO
+[0.728s] writing dependency_links to ../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/dependency_links.txt
+[0.728s] writing entry points to ../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/entry_points.txt
+[0.728s] writing requirements to ../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/requires.txt
+[0.728s] writing top-level names to ../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/top_level.txt
+[0.728s] writing manifest file '../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/SOURCES.txt'
+[0.729s] reading manifest file '../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/SOURCES.txt'
+[0.729s] adding license file 'LICENSE'
+[0.729s] writing manifest file '../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info/SOURCES.txt'
+[0.729s] running build
+[0.729s] running build_py
+[0.729s] creating /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/build
+[0.730s] creating /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/build/lib
+[0.730s] creating /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/build/lib/px4_nmpc_casadi
+[0.730s] copying px4_nmpc_casadi/__init__.py -> /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/build/lib/px4_nmpc_casadi
+[0.730s] running install
+[0.730s] running install_lib
+[0.730s] creating /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/lib/python3.10/site-packages/px4_nmpc_casadi
+[0.730s] copying /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/build/lib/px4_nmpc_casadi/__init__.py -> /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/lib/python3.10/site-packages/px4_nmpc_casadi
+[0.730s] byte-compiling /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/lib/python3.10/site-packages/px4_nmpc_casadi/__init__.py to __init__.cpython-310.pyc
+[0.730s] running install_data
+[0.730s] creating /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/ament_index
+[0.730s] creating /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/ament_index/resource_index
+[0.731s] creating /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/ament_index/resource_index/packages
+[0.731s] copying resource/px4_nmpc_casadi -> /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/ament_index/resource_index/packages
+[0.731s] copying package.xml -> /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/px4_nmpc_casadi
+[0.731s] running install_egg_info
+[0.732s] Copying ../../build/px4_nmpc_casadi/px4_nmpc_casadi.egg-info to /home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/lib/python3.10/site-packages/px4_nmpc_casadi-0.0.0-py3.10.egg-info
+[0.732s] running install_scripts
+[0.743s] writing list of installed files to '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/install.log'
+[0.761s] Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_nmpc_casadi' returned '0': PYTHONPATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_nmpc_casadi build --build-base /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/build install --record /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/install.log --single-version-externally-managed install_data
