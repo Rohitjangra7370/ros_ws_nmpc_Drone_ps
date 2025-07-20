@@ -1,0 +1,15 @@
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/ament_index/resource_index/package_run_dependencies/nmpc_core
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/ament_index/resource_index/parent_prefix_path/nmpc_core
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/environment/ament_prefix_path.sh
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/environment/ament_prefix_path.dsv
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/environment/path.sh
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/environment/path.dsv
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/local_setup.bash
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/local_setup.sh
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/local_setup.zsh
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/local_setup.dsv
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.dsv
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/ament_index/resource_index/packages/nmpc_core
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/cmake/nmpc_coreConfig.cmake
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/cmake/nmpc_coreConfig-version.cmake
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.xml

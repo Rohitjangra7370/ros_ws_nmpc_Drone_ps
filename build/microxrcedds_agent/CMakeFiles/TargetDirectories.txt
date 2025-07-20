@@ -1,0 +1,8 @@
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/CMakeFiles/microxrcedds_agent.dir
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/CMakeFiles/MicroXRCEAgent.dir
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/CMakeFiles/edit_cache.dir
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/CMakeFiles/rebuild_cache.dir
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/CMakeFiles/list_install_components.dir
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/CMakeFiles/install.dir
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/CMakeFiles/install/local.dir
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/CMakeFiles/install/strip.dir

@@ -1,0 +1,13 @@
+# Target labels
+ microxrcedds_client
+# Source files and their labels
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/CMakeFiles/microxrcedds_client
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/CMakeFiles/microxrcedds_client.rule
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/CMakeFiles/microxrcedds_client-complete.rule
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-build.rule
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-configure.rule
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-download.rule
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-install.rule
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-mkdir.rule
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-patch.rule
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-update.rule

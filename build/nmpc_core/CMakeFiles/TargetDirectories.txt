@@ -1,0 +1,9 @@
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core/CMakeFiles/uninstall.dir
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core/CMakeFiles/nmpc_core_uninstall.dir
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core/CMakeFiles/test.dir
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core/CMakeFiles/edit_cache.dir
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core/CMakeFiles/rebuild_cache.dir
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core/CMakeFiles/list_install_components.dir
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core/CMakeFiles/install.dir
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core/CMakeFiles/install/local.dir
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core/CMakeFiles/install/strip.dir
