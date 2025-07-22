@@ -1,0 +1,4 @@
+Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent': /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent -- -j20 -l20
+Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent -- -j20 -l20
+Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent': /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent
+Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent

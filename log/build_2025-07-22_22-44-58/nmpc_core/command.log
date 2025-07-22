@@ -1,0 +1,2 @@
+Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core -- -j20 -l20
+Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core -- -j20 -l20

@@ -238,14 +238,23 @@ Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 //Name of the computer/site where compile is being run
 SITE:STRING=OlympusForge-ROG-Strix
 
+//Path to a library.
+_lib:FILEPATH=/opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
+
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_copyright.
+ament_cmake_copyright_DIR:PATH=/opt/ros/humble/share/ament_cmake_copyright/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_core.
 ament_cmake_core_DIR:PATH=/opt/ros/humble/share/ament_cmake_core/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_cppcheck.
 ament_cmake_cppcheck_DIR:PATH=/opt/ros/humble/share/ament_cmake_cppcheck/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_cpplint.
+ament_cmake_cpplint_DIR:PATH=/opt/ros/humble/share/ament_cmake_cpplint/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_definitions.
 ament_cmake_export_definitions_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_definitions/cmake
@@ -304,6 +313,12 @@ ament_cmake_version_DIR:PATH=/opt/ros/humble/share/ament_cmake_version/cmake
 //The directory containing a CMake configuration file for ament_cmake_xmllint.
 ament_cmake_xmllint_DIR:PATH=/opt/ros/humble/share/ament_cmake_xmllint/cmake
 
+//Path to a program.
+ament_copyright_BIN:FILEPATH=/opt/ros/humble/bin/ament_copyright
+
+//Path to a program.
+ament_flake8_BIN:FILEPATH=/opt/ros/humble/bin/ament_flake8
+
 //The directory containing a CMake configuration file for ament_lint_auto.
 ament_lint_auto_DIR:PATH=/opt/ros/humble/share/ament_lint_auto/cmake
 
@@ -314,7 +329,25 @@ ament_lint_cmake_BIN:FILEPATH=/opt/ros/humble/bin/ament_lint_cmake
 ament_lint_common_DIR:PATH=/opt/ros/humble/share/ament_lint_common/cmake
 
 //Path to a program.
+ament_pep257_BIN:FILEPATH=/opt/ros/humble/bin/ament_pep257
+
+//Path to a program.
 ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
+
+//The directory containing a CMake configuration file for builtin_interfaces.
+builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
+
+//The directory containing a CMake configuration file for fastcdr.
+fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr
+
+//The directory containing a CMake configuration file for fastrtps_cmake_module.
+fastrtps_cmake_module_DIR:PATH=/opt/ros/humble/share/fastrtps_cmake_module/cmake
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/humble/share/geometry_msgs/cmake
+
+//The directory containing a CMake configuration file for nav_msgs.
+nav_msgs_DIR:PATH=/opt/ros/humble/share/nav_msgs/cmake
 
 //Value Computed by CMake
 nmpc_core_BINARY_DIR:STATIC=/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core
@@ -324,6 +357,69 @@ nmpc_core_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 nmpc_core_SOURCE_DIR:STATIC=/home/olympusforge/Drone_PS/px4_nmpc_ws/src/nmpc_core
+
+//The directory containing a CMake configuration file for px4_msgs.
+px4_msgs_DIR:PATH=px4_msgs_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for rclpy.
+rclpy_DIR:PATH=/opt/ros/humble/share/rclpy/cmake
+
+//The directory containing a CMake configuration file for rcpputils.
+rcpputils_DIR:PATH=/opt/ros/humble/share/rcpputils/cmake
+
+//The directory containing a CMake configuration file for rcutils.
+rcutils_DIR:PATH=/opt/ros/humble/share/rcutils/cmake
+
+//The directory containing a CMake configuration file for rmw.
+rmw_DIR:PATH=/opt/ros/humble/share/rmw/cmake
+
+//The directory containing a CMake configuration file for rosidl_adapter.
+rosidl_adapter_DIR:PATH=/opt/ros/humble/share/rosidl_adapter/cmake
+
+//The directory containing a CMake configuration file for rosidl_cmake.
+rosidl_cmake_DIR:PATH=/opt/ros/humble/share/rosidl_cmake/cmake
+
+//The directory containing a CMake configuration file for rosidl_default_runtime.
+rosidl_default_runtime_DIR:PATH=/opt/ros/humble/share/rosidl_default_runtime/cmake
+
+//The directory containing a CMake configuration file for rosidl_generator_c.
+rosidl_generator_c_DIR:PATH=/opt/ros/humble/share/rosidl_generator_c/cmake
+
+//The directory containing a CMake configuration file for rosidl_generator_cpp.
+rosidl_generator_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_generator_cpp/cmake
+
+//The directory containing a CMake configuration file for rosidl_runtime_c.
+rosidl_runtime_c_DIR:PATH=/opt/ros/humble/share/rosidl_runtime_c/cmake
+
+//The directory containing a CMake configuration file for rosidl_runtime_cpp.
+rosidl_runtime_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_runtime_cpp/cmake
+
+//The directory containing a CMake configuration file for rosidl_typesupport_c.
+rosidl_typesupport_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_c/cmake
+
+//The directory containing a CMake configuration file for rosidl_typesupport_cpp.
+rosidl_typesupport_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_cpp/cmake
+
+//The directory containing a CMake configuration file for rosidl_typesupport_fastrtps_c.
+rosidl_typesupport_fastrtps_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/cmake
+
+//The directory containing a CMake configuration file for rosidl_typesupport_fastrtps_cpp.
+rosidl_typesupport_fastrtps_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/cmake
+
+//The directory containing a CMake configuration file for rosidl_typesupport_interface.
+rosidl_typesupport_interface_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_interface/cmake
+
+//The directory containing a CMake configuration file for rosidl_typesupport_introspection_c.
+rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_introspection_c/cmake
+
+//The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
+rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/cmake
+
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/humble/share/sensor_msgs/cmake
+
+//The directory containing a CMake configuration file for std_msgs.
+std_msgs_DIR:PATH=/opt/ros/humble/share/std_msgs/cmake
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint

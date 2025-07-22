@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/nmpc_core/uORB_listener.py
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/nmpc_core/sensor_processor.py
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/nmpc_core/nmpc_trigger.py
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/nmpc_core/nmpc_core_CASADI.py
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/nmpc_core/command_dispatcher.py
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/launch
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/launch/main.launch.py
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/config
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/ament_index/resource_index/package_run_dependencies/nmpc_core
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/ament_index/resource_index/parent_prefix_path/nmpc_core
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/environment/ament_prefix_path.sh
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/environment/path.sh
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/environment/path.dsv
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/local_setup.bash
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/local_setup.sh
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/local_setup.zsh
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/local_setup.dsv
+-- Installing: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.dsv
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/ament_index/resource_index/packages/nmpc_core
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/cmake/nmpc_coreConfig.cmake
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/cmake/nmpc_coreConfig-version.cmake
+-- Up-to-date: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.xml

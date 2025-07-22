@@ -1,0 +1,392 @@
+[0.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.064s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7de003887520>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7de003886c20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7de003886c20>>)
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.202s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/olympusforge/Drone_PS/px4_nmpc_ws'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extension 'colcon_pkg'
+[0.210s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting type 'cmake' of package 'src/Micro-XRCE-DDS-Agent' from colcon.pkg
+[0.210s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'microxrcedds_agent' of package 'src/Micro-XRCE-DDS-Agent' from colcon.pkg
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Micro-XRCE-DDS-Agent' with type 'cmake' and name 'microxrcedds_agent'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpc_core) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpc_core) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpc_core) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpc_core) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpc_core) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpc_core) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpc_core) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpc_core) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpc_core) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nmpc_core' with type 'ros.ament_cmake' and name 'nmpc_core'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_nmpc_casadi) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_nmpc_casadi) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_nmpc_casadi) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_nmpc_casadi) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_nmpc_casadi) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_nmpc_casadi) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_nmpc_casadi) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_nmpc_casadi) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_nmpc_casadi) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_nmpc_casadi' with type 'ros.ament_python' and name 'px4_nmpc_casadi'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.226s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/Micro-XRCE-DDS-Agent' from colcon.pkg: {'name': 'microxrcedds_agent', 'type': 'cmake', 'dependencies': ['fastcdr', 'fastrtps'], 'cmake-args': ['-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON']}
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.228s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/olympusforge/Drone_PS/px4_nmpc_ws/install
+[0.229s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 371 installed packages in /opt/ros/humble
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:overwrite package 'microxrcedds_agent' build argument 'cmake_args' from package metadata with '['-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON']' (before: 'None')
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'microxrcedds_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent', 'merge_install': False, 'path': '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/Micro-XRCE-DDS-Agent', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'nmpc_core' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'nmpc_core' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'nmpc_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'nmpc_core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'nmpc_core' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'nmpc_core' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'nmpc_core' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'nmpc_core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'nmpc_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'nmpc_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core', 'merge_install': False, 'path': '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/nmpc_core', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_nmpc_casadi' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_nmpc_casadi' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_nmpc_casadi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_nmpc_casadi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_nmpc_casadi' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_nmpc_casadi' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_nmpc_casadi' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_nmpc_casadi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_nmpc_casadi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'px4_nmpc_casadi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi', 'merge_install': False, 'path': '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_nmpc_casadi', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com', 'merge_install': False, 'path': '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[0.254s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.255s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_msgs' with build type 'ament_cmake'
+[0.255s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_msgs'
+[0.256s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.256s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.256s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/Micro-XRCE-DDS-Agent'
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/nmpc_core' with build type 'ament_cmake'
+[0.260s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/nmpc_core'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.262s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_nmpc_casadi' with build type 'ament_python'
+[0.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_nmpc_casadi', 'ament_prefix_path')
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/px4_nmpc_casadi/hook/ament_prefix_path.ps1'
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/px4_nmpc_casadi/hook/ament_prefix_path.dsv'
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/px4_nmpc_casadi/hook/ament_prefix_path.sh'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs -- -j20 -l20
+[0.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent': /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent -- -j20 -l20
+[0.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core -- -j20 -l20
+[0.461s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_nmpc_casadi'
+[0.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core -- -j20 -l20
+[0.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core
+[0.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent -- -j20 -l20
+[0.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent': /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent
+[0.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nmpc_core)
+[0.485s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core' for CMake module files
+[0.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core' for CMake config files
+[0.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('nmpc_core', 'cmake_prefix_path')
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/hook/cmake_prefix_path.ps1'
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/hook/cmake_prefix_path.dsv'
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/hook/cmake_prefix_path.sh'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/bin'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/pkgconfig/nmpc_core.pc'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/python3.10/site-packages'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/bin'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.ps1'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.dsv'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.sh'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.bash'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.zsh'
+[0.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/colcon-core/packages/nmpc_core)
+[0.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nmpc_core)
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core' for CMake module files
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core' for CMake config files
+[0.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('nmpc_core', 'cmake_prefix_path')
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/hook/cmake_prefix_path.ps1'
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/hook/cmake_prefix_path.dsv'
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/hook/cmake_prefix_path.sh'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/bin'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/pkgconfig/nmpc_core.pc'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/python3.10/site-packages'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/bin'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.ps1'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.sh'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.bash'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.zsh'
+[0.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/colcon-core/packages/nmpc_core)
+[0.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(microxrcedds_agent)
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent' for CMake module files
+[0.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/microxrcedds_agent
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent' for CMake config files
+[0.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('microxrcedds_agent', 'cmake_prefix_path')
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/hook/cmake_prefix_path.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/hook/cmake_prefix_path.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/hook/cmake_prefix_path.sh'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/lib'
+[0.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('microxrcedds_agent', 'ld_library_path_lib')
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/hook/ld_library_path_lib.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/hook/ld_library_path_lib.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/hook/ld_library_path_lib.sh'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/bin'
+[0.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('microxrcedds_agent', 'path')
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/hook/path.ps1'
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/hook/path.dsv'
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/hook/path.sh'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/lib/pkgconfig/microxrcedds_agent.pc'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/lib/python3.10/site-packages'
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/bin'
+[0.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('microxrcedds_agent', 'pythonscriptspath')
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/hook/pythonscriptspath.ps1'
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/hook/pythonscriptspath.dsv'
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/hook/pythonscriptspath.sh'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/package.ps1'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/package.dsv'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/package.sh'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/package.bash'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/microxrcedds_agent/package.zsh'
+[0.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/share/colcon-core/packages/microxrcedds_agent)
+[0.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_nmpc_casadi': PYTHONPATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_nmpc_casadi build --build-base /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/build install --record /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/install.log --single-version-externally-managed install_data
+[0.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs -- -j20 -l20
+[0.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi' for CMake module files
+[1.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_nmpc_casadi' returned '0': PYTHONPATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_nmpc_casadi build --build-base /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/build install --record /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_nmpc_casadi/install.log --single-version-externally-managed install_data
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi' for CMake config files
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/lib'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/bin'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/lib/pkgconfig/px4_nmpc_casadi.pc'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/lib/python3.10/site-packages'
+[1.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_nmpc_casadi', 'pythonpath')
+[1.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/px4_nmpc_casadi/hook/pythonpath.ps1'
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/px4_nmpc_casadi/hook/pythonpath.dsv'
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/px4_nmpc_casadi/hook/pythonpath.sh'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/bin'
+[1.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_nmpc_casadi)
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/px4_nmpc_casadi/package.ps1'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/px4_nmpc_casadi/package.dsv'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/px4_nmpc_casadi/package.sh'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/px4_nmpc_casadi/package.bash'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/px4_nmpc_casadi/package.zsh'
+[1.141s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi/share/colcon-core/packages/px4_nmpc_casadi)
+[1.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs' for CMake module files
+[1.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs' for CMake config files
+[1.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib'
+[1.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/bin'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib/python3.10/site-packages'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/bin'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[1.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[1.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs' for CMake module files
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs' for CMake config files
+[1.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib'
+[1.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/bin'
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib/python3.10/site-packages'
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/bin'
+[1.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[1.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[1.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[1.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[1.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[1.157s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[1.157s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_ros_com' with build type 'ament_cmake'
+[1.158s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olympusforge/Drone_PS/px4_nmpc_ws/src/px4_ros_com'
+[1.158s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.158s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com -- -j20 -l20
+[1.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com -- -j20 -l20
+[1.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com
+[1.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com' for CMake module files
+[1.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_msgs/lib:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/microxrcedds_agent/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_ros_com
+[1.466s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com' for CMake config files
+[1.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib'
+[1.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/bin'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/bin'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[1.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[1.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com' for CMake module files
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com' for CMake config files
+[1.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[1.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[1.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[1.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib'
+[1.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/bin'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/bin'
+[1.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[1.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[1.476s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.476s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.476s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.476s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.481s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.481s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.481s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.488s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.488s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/local_setup.ps1'
+[1.489s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/_local_setup_util_ps1.py'
+[1.490s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/setup.ps1'
+[1.490s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/local_setup.sh'
+[1.491s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/_local_setup_util_sh.py'
+[1.491s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/setup.sh'
+[1.491s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/local_setup.bash'
+[1.492s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/setup.bash'
+[1.492s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/local_setup.zsh'
+[1.492s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olympusforge/Drone_PS/px4_nmpc_ws/install/setup.zsh'

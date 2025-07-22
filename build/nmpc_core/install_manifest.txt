@@ -1,3 +1,9 @@
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/nmpc_core/uORB_listener.py
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/nmpc_core/sensor_processor.py
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/nmpc_core/nmpc_trigger.py
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/nmpc_core/nmpc_core_CASADI.py
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/nmpc_core/command_dispatcher.py
+/home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/launch/main.launch.py
 /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/ament_index/resource_index/package_run_dependencies/nmpc_core
 /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/ament_index/resource_index/parent_prefix_path/nmpc_core
 /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/environment/ament_prefix_path.sh

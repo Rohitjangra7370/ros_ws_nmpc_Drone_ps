@@ -43,6 +43,24 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/nmpc_core" TYPE PROGRAM FILES
+    "/home/olympusforge/Drone_PS/px4_nmpc_ws/src/nmpc_core/src/uORB_listener.py"
+    "/home/olympusforge/Drone_PS/px4_nmpc_ws/src/nmpc_core/src/sensor_processor.py"
+    "/home/olympusforge/Drone_PS/px4_nmpc_ws/src/nmpc_core/src/nmpc_trigger.py"
+    "/home/olympusforge/Drone_PS/px4_nmpc_ws/src/nmpc_core/src/nmpc_core_CASADI.py"
+    "/home/olympusforge/Drone_PS/px4_nmpc_ws/src/nmpc_core/src/command_dispatcher.py"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nmpc_core/launch" TYPE DIRECTORY FILES "/home/olympusforge/Drone_PS/px4_nmpc_ws/src/nmpc_core/launch/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nmpc_core/config" TYPE DIRECTORY FILES "/home/olympusforge/Drone_PS/px4_nmpc_ws/src/nmpc_core/config/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/nmpc_core")
 endif()
 

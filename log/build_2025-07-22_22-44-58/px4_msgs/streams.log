@@ -1,0 +1,23 @@
+[0.017s] Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/px4_msgs -- -j20 -l20
+[0.388s] [  0%] Built target px4_msgs__cpp
+[0.402s] [  0%] Built target ament_cmake_python_copy_px4_msgs
+[0.423s] [ 12%] Built target px4_msgs__rosidl_generator_c
+[0.465s] [ 24%] Built target px4_msgs__rosidl_typesupport_cpp
+[0.466s] [ 37%] Built target px4_msgs__rosidl_typesupport_c
+[0.483s] [ 50%] Built target px4_msgs__rosidl_typesupport_introspection_cpp
+[0.486s] [ 63%] Built target px4_msgs__rosidl_typesupport_introspection_c
+[0.495s] [ 75%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp
+[0.513s] [ 88%] Built target px4_msgs__rosidl_typesupport_fastrtps_c
+[0.532s] [ 88%] Built target px4_msgs
+[0.559s] [ 88%] Built target px4_msgs__py
+[0.585s] running egg_info
+[0.586s] writing px4_msgs.egg-info/PKG-INFO
+[0.586s] writing dependency_links to px4_msgs.egg-info/dependency_links.txt
+[0.586s] writing top-level names to px4_msgs.egg-info/top_level.txt
+[0.589s] reading manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[0.592s] writing manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[0.612s] [ 88%] Built target ament_cmake_python_build_px4_msgs_egg
+[0.636s] [100%] Built target px4_msgs__rosidl_generator_py
+[0.656s] [100%] Built target px4_msgs__rosidl_typesupport_c__pyext
+[0.657s] [100%] Built target px4_msgs__rosidl_typesupport_introspection_c__pyext
+[0.657s] [100%] Built target px4_msgs__rosidl_typesupport_fastrtps_c__pyext
