@@ -1,2 +1,1 @@
-source;share/nmpc_core/environment/ament_prefix_path.sh
-source;share/nmpc_core/environment/path.sh
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core/ament_cmake_environment_hooks/local_setup.dsv

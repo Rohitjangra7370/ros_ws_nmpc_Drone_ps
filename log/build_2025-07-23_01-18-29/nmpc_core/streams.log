@@ -1,0 +1,27 @@
+[0.011s] Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core -- -j20 -l20
+[0.065s] Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core -- -j20 -l20
+[0.078s] Invoking command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core
+[0.087s] -- Install configuration: ""
+[0.088s] -- Execute custom install script
+[0.088s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/nmpc_core/uORB_listener.py
+[0.088s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/nmpc_core/sensor_processor.py
+[0.088s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/nmpc_core/nmpc_trigger.py
+[0.088s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/nmpc_core/nmpc_core_CASADI.py
+[0.088s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/lib/nmpc_core/command_dispatcher.py
+[0.088s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/launch/main.launch.py
+[0.089s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/ament_index/resource_index/package_run_dependencies/nmpc_core
+[0.089s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/ament_index/resource_index/parent_prefix_path/nmpc_core
+[0.089s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/environment/ament_prefix_path.sh
+[0.089s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/environment/ament_prefix_path.dsv
+[0.089s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/environment/path.sh
+[0.089s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/environment/path.dsv
+[0.090s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/local_setup.bash
+[0.090s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/local_setup.sh
+[0.090s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/local_setup.zsh
+[0.090s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/local_setup.dsv
+[0.090s] -- Symlinking: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.dsv
+[0.102s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/ament_index/resource_index/packages/nmpc_core
+[0.102s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/cmake/nmpc_coreConfig.cmake
+[0.102s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/cmake/nmpc_coreConfig-version.cmake
+[0.102s] -- Up-to-date symlink: /home/olympusforge/Drone_PS/px4_nmpc_ws/install/nmpc_core/share/nmpc_core/package.xml
+[0.104s] Invoked command in '/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/Drone_PS/px4_nmpc_ws/install/px4_nmpc_casadi:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core

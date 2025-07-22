@@ -207,7 +207,7 @@ def main(args=None):
     finally:
         # Clean shutdown
         uorb_listener.destroy_node()
-        rclpy.shutdown()
+        # rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

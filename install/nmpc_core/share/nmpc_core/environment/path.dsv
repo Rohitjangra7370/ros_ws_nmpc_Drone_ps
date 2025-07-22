@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/olympusforge/Drone_PS/px4_nmpc_ws/build/nmpc_core/ament_cmake_environment_hooks/path.dsv
